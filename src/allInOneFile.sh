@@ -14,3 +14,8 @@ NAME="Byeweb2"
 echo "My name is $NAME"
 # Or we can use 
 echo "My name is ${NAME}"
+
+# Prompt the user to enter something 
+# read -p "Message " variableName | -p mean prompt to the user 
+read -p "Enter your age: " AGE
+echo "You are $AGE years old"
