@@ -11,3 +11,6 @@ Much more Things you can do to win time.
 
 Shell script must have executable permissions
 ` chmod +x fileName.sh | ./fileName.sh`
+
+## All in one file 
+You found all the code inside `allInOneFile.sh` between section and section space
