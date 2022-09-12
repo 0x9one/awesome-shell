@@ -1,6 +1,9 @@
 #! /bin/bash
 
-# The first you have to write is the sharp bang with bash location form /bin/bash
+# The first line of the shell script file begins with a "sha-bang" (#!) which is not read as a comment, 
+# followed by the full path where the shell interpreter is located. like [ #! path ] => #! /bin/bash
+
+# Any text following the "#" is considered a comment
 
 # Print Hello world 
 # we use -> echoo write_your_message
