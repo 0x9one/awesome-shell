@@ -12,7 +12,8 @@ echo Hello World!
 # Variables must be
 # Uppercase by convention
 # Letters, number, and underscores
-# variableName=value 
+# variableName=value
+# Note that no space permitted on either side of = sign when initializing variables.
 NAME="Byeweb2"
 echo "My name is $NAME"
 # Or we can use 
