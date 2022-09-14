@@ -85,3 +85,21 @@ then
 else 
     echo $FILE is not a file
 fi
+
+# Case statement
+read -p "Are you 21 or over? Y/N " ANSWER
+case $ANSWER in 
+    # First case when answer yes or y, Y
+    [yY] | [yY][eE][sS])
+        echo You can have a tour 
+        ;;
+    # Second case when answer no or n, N
+    [nN] | [nN][oO])
+        echo Sorry no tour
+        ;;
+    
+    # Default value
+    *)
+        echo Please enter y/yes or n/no
+        ;;
+esac
