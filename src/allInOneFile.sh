@@ -111,10 +111,18 @@ esac
 #        echo Welcome $NAME
 # done
 # For loop rename example
-# FILES=$(ls *.txt)  Get all .txt file
+# FILES=$(ls *.txt)  -> Get all .txt file
 # NEW="new"
 # for FILE in $FILES 
 #    do 
 #        echo Renaming $FILE to new-$FILE
 #        mv $FILE $NEW-$FILE
 # done
+
+# While loop by Reading a file lines
+# LINE=1 -> Start increment
+# while read -r CURRENT_LINE
+#    do
+#        echo $LINE: $CURRENT_LINE
+#        ((LINE++))
+# done < "file_name" -> to read from it
