@@ -51,3 +51,19 @@ then
 else 
     echo Sorry your name not found
 fi
+
+# Comparison 
+# -eq: equal
+# -ne: not equal
+# -gt: greater than
+# -ge: greater then or equal
+# -lt: less then 
+# -le: lessn then or equal
+NUM1=31
+NUM2=5
+if [ $NUM1 -gt $NUM2 ]
+then 
+    echo $NUM1 is greater than $NUM2
+else 
+    echo $NUM1 is less than $NUM2
+fi
