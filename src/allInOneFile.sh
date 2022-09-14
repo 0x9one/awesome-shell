@@ -53,12 +53,12 @@ else
 fi
 
 # Comparison 
-# -eq: equal
-# -ne: not equal
-# -gt: greater than
-# -ge: greater then or equal
-# -lt: less then 
-# -le: lessn then or equal
+# -eq -> equal
+# -ne -> not equal
+# -gt -> greater than
+# -ge -> greater then or equal
+# -lt -> less then 
+# -le -> lessn then or equal
 NUM1=31
 NUM2=5
 if [ $NUM1 -gt $NUM2 ]
@@ -66,4 +66,22 @@ then
     echo $NUM1 is greater than $NUM2
 else 
     echo $NUM1 is less than $NUM2
+fi
+
+# File conditions
+# -d -> True if the file is a directory 
+# -e -> True if the file exists
+# -f -> True if the provided string is a file
+# -g -> True if the group id is set on a file 
+# -r -> True if the file is readable
+# -s -> True if the file has a non-zero size
+# -u -> True if the user id is set on a file
+# -w -> True if the file is writable
+# -x -> True if the file is an executable
+FILE="shell.txt"
+if [ -f $FILE ]
+then
+    echo $FILE is a file
+else 
+    echo $FILE is not a file
 fi
