@@ -138,3 +138,7 @@ function welcome() {
     echo welcome $1 and $2
 }
 welcome "Salah" 20
+
+# Linux command
+mkdir test 
+touch test.txt
