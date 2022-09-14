@@ -103,3 +103,18 @@ case $ANSWER in
         echo Please enter y/yes or n/no
         ;;
 esac
+
+# For loop
+# NAMES="Salah Eddine Khalil Nedal"
+# for NAME is $NAMES
+#    do 
+#        echo Welcome $NAME
+# done
+# For loop rename example
+# FILES=$(ls *.txt)  Get all .txt file
+# NEW="new"
+# for FILE in $FILES 
+#    do 
+#        echo Renaming $FILE to new-$FILE
+#        mv $FILE $NEW-$FILE
+# done
