@@ -126,3 +126,15 @@ esac
 #        echo $LINE: $CURRENT_LINE
 #        ((LINE++))
 # done < "file_name" -> to read from it
+
+# Functions 
+function helloWorld() {
+    echo Hello World!
+}
+helloWorld
+# Function with params
+# We use Position param
+function welcome() {
+    echo welcome $1 and $2
+}
+welcome "Salah" 20
